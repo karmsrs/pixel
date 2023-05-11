@@ -321,7 +321,7 @@ class Game:
         self.col_clues = gamedata.col_clues
         self.mark = Mark()
         self.root = tk.Tk()
-        self.root.title('Picross')
+        self.root.title('Pixel')
         self.root.protocol('WM_DELETE_WINDOW', self.clean_exit)
         self.root.bind('<MouseWheel>', self.switch_mark)
         self.root.iconify()
